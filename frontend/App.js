@@ -8,7 +8,7 @@ import  Startup from './screens/Startup';
 import Home from './screens/Home';
 import LoginScreen from './screens/LoginScreen';
 import SignupScreen from './screens/SignupScreen';
-import ProfileScreen from './screens/ProfileScreen';
+import ProfileScreen from './screens/LoginScreen';
 import EditProfile from './screens/EditProfile';
 import ChangePassword from './screens/ChangePassword';
 import ProductDetails from './screens/ProductDetails';

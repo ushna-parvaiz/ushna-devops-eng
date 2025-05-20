@@ -16,9 +16,10 @@ app.use('/api/auth', authRoutes);
 app.use('/api/favorites', favoritesRoutes);
 
 mongoose.connect('mongodb://host.docker.internal:27017/ARterior', {
-    useNewUrlParser: true,
+  useNewUrlParser: true,
   useUnifiedTopology: true,
 })
+
 .then(() => console.log('✅ MongoDB connected'))
 .catch(err => console.error('❌ MongoDB connection error:', err));
 

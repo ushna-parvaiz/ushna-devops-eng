@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: 40089/arterior-backend:latest
+          tags: 40819/my-backend-app:latest
